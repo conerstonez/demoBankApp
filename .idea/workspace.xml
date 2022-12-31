@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="652d5dc0-ad1e-422b-a22e-16f4a10cd00d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bankServices.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/model/AccountType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/AccountRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/repository/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/request/AccountCreationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/request/CustomerCreationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/request/FindCustomerByNameRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/request/SignInRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/request/TransferMoneyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/AccountServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/AccountServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CustomerServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CustomerServicesImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/repository/AccountRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/data/repository/CustomerRepositoryImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/services/AccountServicesImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/services/CustomerServicesImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JUQYNrey5VMPSwS6nztM48Vm7C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/home/conerstonez/IdeaProjects/bankServices/src/dto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dto" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="services" />
+      <recent name="data.repository" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountServicesImplTest.transferMoney_debitAccountBalanceReduces_creditAccountBalanceIncreases">
+    <configuration name="AccountServicesImplTest.accountDetailsCanBeViewed_displaysAccountInformation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.AccountServicesImplTest" />
+      <option name="METHOD_NAME" value="accountDetailsCanBeViewed_displaysAccountInformation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServicesImplTest.depositIncreasesAccountBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.AccountServicesImplTest" />
+      <option name="METHOD_NAME" value="depositIncreasesAccountBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServicesImplTest.removeAccount_accountCountDecreasesByOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.AccountServicesImplTest" />
+      <option name="METHOD_NAME" value="removeAccount_accountCountDecreasesByOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServicesImplTest.transferMoney_debitAccountBalanceReduces_creditAccountBalanceIncreases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.AccountServicesImplTest" />
+      <option name="METHOD_NAME" value="transferMoney_debitAccountBalanceReduces_creditAccountBalanceIncreases" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServicesImplTest.withdrawalDeductsAccountBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.AccountServicesImplTest" />
+      <option name="METHOD_NAME" value="withdrawalDeductsAccountBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountServicesImplTest.transferMoney_debitAccountBalanceReduces_creditAccountBalanceIncreases" />
+        <item itemvalue="JUnit.AccountServicesImplTest.depositIncreasesAccountBalance" />
+        <item itemvalue="JUnit.AccountServicesImplTest.withdrawalDeductsAccountBalance" />
+        <item itemvalue="JUnit.AccountServicesImplTest.removeAccount_accountCountDecreasesByOne" />
+        <item itemvalue="JUnit.AccountServicesImplTest.accountDetailsCanBeViewed_displaysAccountInformation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="652d5dc0-ad1e-422b-a22e-16f4a10cd00d" name="Changes" comment="" />
+      <created>1672130232443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672130232443</updated>
+      <workItem from="1672130234945" duration="45222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
