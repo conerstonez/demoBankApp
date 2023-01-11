@@ -37,7 +37,7 @@ class CustomerRepositoryImplTest {
         assertEquals(1L, cr.count());
     }
 
-    @Test void deleteCustomer_dbCountShouldBeOne() {
+    @Test void deleteCustomer_dbCountShouldBeZero() {
         CustomerCreationRequest customerCreationRequest = new CustomerCreationRequest();
         customerCreationRequest.setFirstName("Peter");
         customerCreationRequest.setEmail("@go");

@@ -74,7 +74,6 @@ public class AccountServicesImpl implements AccountServices {
         accountRepository.delete(account);
     }
 
-
     @Override
     public HashMap<String, Account> viewAll() {
         return accountRepository.findAll();

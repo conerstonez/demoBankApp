@@ -5,59 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="652d5dc0-ad1e-422b-a22e-16f4a10cd00d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bankServices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0-javadoc.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/model/AccountType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repository/AccountRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/repository/CustomerRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/request/AccountCreationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/request/CustomerCreationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/request/FindCustomerByNameRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/request/SignInRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/request/TransferMoneyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/AccountServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/AccountServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/CustomerServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/CustomerServicesImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/repository/AccountRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/data/repository/CustomerRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/services/AccountServicesImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/services/CustomerServicesImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankServices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bankServices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/AccountServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/AccountServicesImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +30,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2JUQYNrey5VMPSwS6nztM48Vm7C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -103,6 +61,8 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "4b7cb87528e20f4ade57dfe16f54c56b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -119,8 +79,8 @@
       <recent name="data.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerServicesImplTest.createCustomer_saveCustomerToDbTest">
-    <configuration name="AccountRepositoryImplTest.findAccountByAccountNumber_returnsAccountObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerRepositoryImplTest.findCustomerByAccountNumber_shouldReturnCustomerDetails">
+    <configuration name="CustomerRepositoryImplTest.deleteCustomer_dbCountShouldBeZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bankServices" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +89,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="data.repository" />
-      <option name="MAIN_CLASS_NAME" value="data.repository.AccountRepositoryImplTest" />
-      <option name="METHOD_NAME" value="findAccountByAccountNumber_returnsAccountObject" />
+      <option name="MAIN_CLASS_NAME" value="data.repository.CustomerRepositoryImplTest" />
+      <option name="METHOD_NAME" value="deleteCustomer_dbCountShouldBeZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerRepositoryImplTest.updateCustomerDetails_countDoesNotIncrease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerRepositoryImplTest.saveNewCustomer_DbCountShouldBeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bankServices" />
       <extension name="coverage">
         <pattern>
@@ -178,7 +138,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="data.repository" />
       <option name="MAIN_CLASS_NAME" value="data.repository.CustomerRepositoryImplTest" />
-      <option name="METHOD_NAME" value="updateCustomerDetails_countDoesNotIncrease" />
+      <option name="METHOD_NAME" value="saveNewCustomer_DbCountShouldBeOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CustomerRepositoryImplTest.findCustomerByAccountNumber_shouldReturnCustomerDetails" />
+        <item itemvalue="JUnit.CustomerRepositoryImplTest.deleteCustomer_dbCountShouldBeZero" />
+        <item itemvalue="JUnit.CustomerRepositoryImplTest.saveNewCustomer_DbCountShouldBeOne" />
         <item itemvalue="JUnit.CustomerServicesImplTest.createCustomer_saveCustomerToDbTest" />
         <item itemvalue="JUnit.CustomerRepositoryImplTest.findCustomerByName_shouldReturnCustomerDetails" />
-        <item itemvalue="JUnit.CustomerRepositoryImplTest.updateCustomerDetails_countDoesNotIncrease" />
-        <item itemvalue="JUnit.CustomerRepositoryImplTest.findCustomerByAccountNumber_shouldReturnCustomerDetails" />
-        <item itemvalue="JUnit.AccountRepositoryImplTest.findAccountByAccountNumber_returnsAccountObject" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +181,9 @@
       <workItem from="1672130234945" duration="45222000" />
       <workItem from="1672581051337" duration="875000" />
       <workItem from="1672610788992" duration="10619000" />
+      <workItem from="1673261149059" duration="1850000" />
+      <workItem from="1673359927230" duration="701000" />
+      <workItem from="1673426814457" duration="6092000" />
     </task>
     <servers />
   </component>
