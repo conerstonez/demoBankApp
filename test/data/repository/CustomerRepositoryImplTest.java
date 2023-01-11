@@ -61,7 +61,6 @@ class CustomerRepositoryImplTest {
         accountCreationRequest.setAccountType(SAVINGS);
         accountCreationRequest.setBalance(new BigDecimal(1142524542646L));
         Account account = new Account(accountCreationRequest);
-        account.setAccountNumber("3534352681");
         customerCreationRequest.setAccount(account);
         Customer customer = new Customer(customerCreationRequest);
         cr.save(customer);
@@ -78,7 +77,6 @@ class CustomerRepositoryImplTest {
         accountCreationRequest.setAccountType(SAVINGS);
         accountCreationRequest.setBalance(new BigDecimal(1142524542646L));
         Account account = new Account(accountCreationRequest);
-        account.setAccountNumber("5756337489");
         customerCreationRequest.setAccount(account);
         Customer customer = new Customer(customerCreationRequest);
         cr.save(customer);
@@ -91,7 +89,6 @@ class CustomerRepositoryImplTest {
         accountCreationRequest1.setAccountType(SAVINGS);
         accountCreationRequest1.setBalance(new BigDecimal(1142524542646L));
         Account account1 = new Account(accountCreationRequest1);
-        account1.setAccountNumber("11221425");
         dCustomerCreationRequest.setAccount(account1);
         Customer dCustomer = new Customer(dCustomerCreationRequest);
         cr.save(dCustomer);
@@ -114,7 +111,6 @@ class CustomerRepositoryImplTest {
         accountCreationRequest.setAccountType(SAVINGS);
         accountCreationRequest.setBalance(new BigDecimal(1142524542646L));
         Account account = new Account(accountCreationRequest);
-        account.setAccountNumber("6457287578");
         dCustomerCreationRequest.setAccount(account);
         Customer dCustomer = new Customer(dCustomerCreationRequest);
         cr.save(dCustomer);
@@ -130,7 +126,6 @@ class CustomerRepositoryImplTest {
         accountCreationRequest1.setAccountType(SAVINGS);
         accountCreationRequest1.setBalance(new BigDecimal(1142524542646L));
         Account account1 = new Account(accountCreationRequest1);
-        account1.setAccountNumber("5729382839");
         customerCreationRequest.setAccount(account1);
         Customer customer = new Customer(customerCreationRequest);
         cr.save(customer);

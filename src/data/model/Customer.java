@@ -16,7 +16,7 @@ public class Customer {
     private String address;
     private String phoneNumber;
     private Date dob;
-    private Account account;
+    private final Account account;
 
     public Customer(CustomerCreationRequest customerCreationRequest) {
         this.firstName = customerCreationRequest.getFirstName();
@@ -89,9 +89,9 @@ public class Customer {
         return account;
     }
 
-    public void setAccount(Account account) {
-        this.account = account;
-    }
+//    public void setAccount(Account account) {
+//        this.account = account;
+//    }
 
     @Override
     public String toString() {

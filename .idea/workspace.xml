@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="652d5dc0-ad1e-422b-a22e-16f4a10cd00d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankServices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bankServices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/model/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/AccountServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/AccountServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/CustomerServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CustomerServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/CustomerServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CustomerServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/model/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/AccountServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/AccountServicesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/CustomerServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/CustomerServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/services/CustomerServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/CustomerServicesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/repository/AccountRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/repository/AccountRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/data/repository/CustomerRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/repository/CustomerRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/services/CustomerServicesImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/services/CustomerServicesImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repository/AccountRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repository/AccountRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data/repository/CustomerRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repository/CustomerRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/services/CustomerServicesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/CustomerServicesImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,28 +57,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "/home/conerstonez/IdeaProjects/bankServices",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "4b7cb87528e20f4ade57dfe16f54c56b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/conerstonez/IdeaProjects/bankServices&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;4b7cb87528e20f4ade57dfe16f54c56b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -79,72 +92,8 @@
       <recent name="data.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerRepositoryImplTest.findCustomerByAccountNumber_shouldReturnCustomerDetails">
-    <configuration name="CustomerRepositoryImplTest.deleteCustomer_dbCountShouldBeZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bankServices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.repository" />
-      <option name="MAIN_CLASS_NAME" value="data.repository.CustomerRepositoryImplTest" />
-      <option name="METHOD_NAME" value="deleteCustomer_dbCountShouldBeZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerRepositoryImplTest.findCustomerByAccountNumber_shouldReturnCustomerDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bankServices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.repository" />
-      <option name="MAIN_CLASS_NAME" value="data.repository.CustomerRepositoryImplTest" />
-      <option name="METHOD_NAME" value="findCustomerByAccountNumber_shouldReturnCustomerDetails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerRepositoryImplTest.findCustomerByName_shouldReturnCustomerDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bankServices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.repository" />
-      <option name="MAIN_CLASS_NAME" value="data.repository.CustomerRepositoryImplTest" />
-      <option name="METHOD_NAME" value="findCustomerByName_shouldReturnCustomerDetails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerRepositoryImplTest.saveNewCustomer_DbCountShouldBeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bankServices" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data.repository" />
-      <option name="MAIN_CLASS_NAME" value="data.repository.CustomerRepositoryImplTest" />
-      <option name="METHOD_NAME" value="saveNewCustomer_DbCountShouldBeOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerServicesImplTest.createCustomer_saveCustomerToDbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomerServicesImplTest.viewCustomerDetailsTest">
+    <configuration name="CustomerServicesImplTest.creationOfCustomer_createsAnAccount_savesCustomerAndAccountToDb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bankServices" />
       <extension name="coverage">
         <pattern>
@@ -154,7 +103,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="services" />
       <option name="MAIN_CLASS_NAME" value="services.CustomerServicesImplTest" />
-      <option name="METHOD_NAME" value="createCustomer_saveCustomerToDbTest" />
+      <option name="METHOD_NAME" value="creationOfCustomer_createsAnAccount_savesCustomerAndAccountToDb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServicesImplTest.deleteCustomerByAccountNumber_customerRepoIsZero_accountRepoAlsoZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.CustomerServicesImplTest" />
+      <option name="METHOD_NAME" value="deleteCustomerByAccountNumber_customerRepoIsZero_accountRepoAlsoZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServicesImplTest.deleteCustomerByCustomerObject_customerRepoIsZero_accountRepoAlsoZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.CustomerServicesImplTest" />
+      <option name="METHOD_NAME" value="deleteCustomerByCustomerObject_customerRepoIsZero_accountRepoAlsoZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServicesImplTest.deleteCustomer_customerRepoIsZero_accountRepoAlsoZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.CustomerServicesImplTest" />
+      <option name="METHOD_NAME" value="deleteCustomer_customerRepoIsZero_accountRepoAlsoZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerServicesImplTest.viewCustomerDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankServices" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.CustomerServicesImplTest" />
+      <option name="METHOD_NAME" value="viewCustomerDetailsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerRepositoryImplTest.findCustomerByAccountNumber_shouldReturnCustomerDetails" />
-        <item itemvalue="JUnit.CustomerRepositoryImplTest.deleteCustomer_dbCountShouldBeZero" />
-        <item itemvalue="JUnit.CustomerRepositoryImplTest.saveNewCustomer_DbCountShouldBeOne" />
-        <item itemvalue="JUnit.CustomerServicesImplTest.createCustomer_saveCustomerToDbTest" />
-        <item itemvalue="JUnit.CustomerRepositoryImplTest.findCustomerByName_shouldReturnCustomerDetails" />
+        <item itemvalue="JUnit.CustomerServicesImplTest.viewCustomerDetailsTest" />
+        <item itemvalue="JUnit.CustomerServicesImplTest.deleteCustomerByAccountNumber_customerRepoIsZero_accountRepoAlsoZero" />
+        <item itemvalue="JUnit.CustomerServicesImplTest.deleteCustomerByCustomerObject_customerRepoIsZero_accountRepoAlsoZero" />
+        <item itemvalue="JUnit.CustomerServicesImplTest.deleteCustomer_customerRepoIsZero_accountRepoAlsoZero" />
+        <item itemvalue="JUnit.CustomerServicesImplTest.creationOfCustomer_createsAnAccount_savesCustomerAndAccountToDb" />
       </list>
     </recent_temporary>
   </component>
@@ -183,11 +196,28 @@
       <workItem from="1672610788992" duration="10619000" />
       <workItem from="1673261149059" duration="1850000" />
       <workItem from="1673359927230" duration="701000" />
-      <workItem from="1673426814457" duration="6092000" />
+      <workItem from="1673426814457" duration="6626000" />
+      <workItem from="1673463050894" duration="9343000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/services/CustomerServicesImplTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="data.repository.AccountRepositoryImpl" memberName="accountDb" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

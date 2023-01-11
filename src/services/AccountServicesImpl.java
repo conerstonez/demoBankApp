@@ -12,26 +12,13 @@ import java.security.SecureRandom;
 import java.util.HashMap;
 
 public class AccountServicesImpl implements AccountServices {
-    private AccountRepository accountRepository = new AccountRepositoryImpl();
+    private static AccountRepository accountRepository = new AccountRepositoryImpl();
 
     @Override
     public Account createAccount(AccountCreationRequest accountCreationRequest) {
         Account account = new Account(accountCreationRequest);
-        account.setAccountNumber(generateAccountNumber());
         accountRepository.save(account);
         return account;
-    }
-
-    private String generateAccountNumber() {
-        SecureRandom randomNumber = new SecureRandom();
-        String accountNumber = "01" + String.valueOf(randomNumber.nextInt(11111111, 99999999));
-        validateAccountNumber(accountNumber);
-        return accountNumber;
-    }
-
-    private void validateAccountNumber(String accNo) {
-        boolean check = accountRepository.findAll().containsKey(accNo);
-        if (check) generateAccountNumber();
     }
 
     @Override

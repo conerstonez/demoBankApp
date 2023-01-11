@@ -50,11 +50,10 @@ class AccountRepositoryImplTest {
         accountCreationRequest1.setAccountType(FIXED_DEPOSIT);
         accountCreationRequest1.setBalance(new BigDecimal(1142524542646L));
         Account account1 = new Account(accountCreationRequest1);
-        account1.setAccountNumber("113323223");
         ar.save(account1);
 
         assertEquals(2, ar.findAll().size());
-        assertEquals(account1, ar.findAccount("113323223"));
+        assertEquals(account1, ar.findAccount(account1.getAccountNumber()));
     }
 
 //    @Test void editAccountDetails_saveUpdatedAccount_countDoesNotIncrease() {

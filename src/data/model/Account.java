@@ -3,23 +3,26 @@ package data.model;
 import dto.request.AccountCreationRequest;
 
 import java.math.BigDecimal;
+import java.security.SecureRandom;
 
 public class Account {
     private AccountType accountType;
-    private String accountNumber;
+    private final String accountNumber;
     private BigDecimal balance;
 
     public Account(AccountCreationRequest accountCreationRequest){
         this.accountType = accountCreationRequest.getAccountType();
         this.balance = accountCreationRequest.getBalance();
+        this.accountNumber = setAccountNumber();
     }
 
     public String getAccountNumber() {
         return accountNumber;
     }
 
-    public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
+    private static String setAccountNumber() {
+        SecureRandom randomNumber = new SecureRandom();
+        return "01" + String.valueOf(randomNumber.nextInt(11111111, 99999999));
     }
 
     public AccountType getAccountType() {
