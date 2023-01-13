@@ -5,23 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="652d5dc0-ad1e-422b-a22e-16f4a10cd00d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/reponse/AccountCreationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/reponse/CustomerCreationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/reponse/FindCustomerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/reponse/MoneyTransferResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/reponse/SignInResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/AccountServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/AccountServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/CustomerServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CustomerServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/CustomerServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CustomerServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/model/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/model/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/model/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/AccountServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/AccountServicesImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/CustomerServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/CustomerServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/CustomerServicesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/CustomerServicesImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/repository/AccountRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/repository/AccountRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/data/repository/CustomerRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/data/repository/CustomerRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/services/CustomerServicesImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/services/CustomerServicesImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/repository/AccountRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repository/AccountRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data/repository/CustomerRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/data/repository/CustomerRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/services/CustomerServicesImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/services/CustomerServicesImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +71,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dto.request" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/dto" />
@@ -198,6 +192,8 @@
       <workItem from="1673359927230" duration="701000" />
       <workItem from="1673426814457" duration="6626000" />
       <workItem from="1673463050894" duration="9343000" />
+      <workItem from="1673602476165" duration="862000" />
+      <workItem from="1673606255754" duration="4645000" />
     </task>
     <servers />
   </component>
@@ -205,15 +201,6 @@
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/services/CustomerServicesImplTest.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="data.repository.AccountRepositoryImpl" memberName="accountDb" />
